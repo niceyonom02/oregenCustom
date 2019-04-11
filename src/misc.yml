@@ -1,0 +1,4 @@
+FirstJoin: default #you can set the default generator when user join first time.
+AFK: afk # the generator which is enabled when user is in AFK, the name should be exactly equal to the one in Generator.yml
+AFKTime: 30 #if user's location is not changed in certain minutes, AFK Mode will be enabled.
+debug: false #the log will be displayed in the console

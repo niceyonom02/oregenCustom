@@ -1,0 +1,25 @@
+setting:
+  enabled: true #you can either enable or disable uding this GUI
+  inventoryName: '&epurchase inventory'
+  inventorySize: 54
+
+  Deco:
+
+
+purchaseGUI:
+  upgrade1: #the name should be exactly equal to the one in the Generator.yml
+    displayName: '&eUpgrade to upgrade1'
+    lore:
+    - 'upgrade1'
+    - 'cost: 50000'
+    slot: 11 # item slot in the inventory
+    material: IRON_BLOCK
+    cost: 50000
+  upgrade2:
+    displayName: '&6upgrade to upgrade2'
+    lore:
+    - '&cupgrade2'
+    - 'cost: 100000'
+    material: GOLD_BLOCK
+    slot: 13
+    cost: 100000

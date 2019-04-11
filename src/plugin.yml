@@ -1,0 +1,5 @@
+name: GoodByeLava
+version: 1.0.0
+main: main.GoodByeLava
+commands:
+  gbl:

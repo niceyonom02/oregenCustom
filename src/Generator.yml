@@ -1,0 +1,33 @@
+
+item: FENCE # the item will replace Lava, |water|ORE|item| <- like this
+generateCooldown: 15
+
+forbiddenWorld:
+- world
+
+#default generator will be used who doesn't have any permissions in 'generator' section.
+default:
+    percentage:
+      DIAMOND_BLOCK: 100
+
+#below generators will have priority in order. if you have upgrade1 permission, you can buy upgrade2 gen.
+#if you only have default permission, you only can buy upgrade1 gen, you can't buy upgrade2 gen in order to insufficient permission.
+
+generator:
+  upgrade1:
+    permission: 'upgrade.upgrade1'
+    percentage:
+      STONE: 50
+      COAL_ORE: 25
+      IRON_ORE: 10
+      DIAMOND_ORE: 10
+      EMERALD_ORE: 5
+  upgrade2:
+    permission: 'upgrade.upgrade2'
+    percentage:
+      COBBLE_STONE: 40
+      COAL_ORE: 20
+      IRON_ORE: 15
+      DIAMOND_ORE: 14
+      EMERALD_ORE: 11
+
